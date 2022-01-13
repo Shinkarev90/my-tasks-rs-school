@@ -1,0 +1,234 @@
+.popup-donat {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-open {
+  display: none;
+}
+
+.popup__container {
+  width: 630px;
+  height: 339px;
+  background: white;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.popup__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup__animal {
+  width: 470px;
+  height: 39px;
+  border: 1px solid #9CA498;
+  position: relative;
+  text-align: center;
+
+}
+
+.popup__animal__select {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  text-align-last: center;
+  appearance: none;
+  background: url(../popup-donat/assets/arrow-select.png) no-repeat;
+  background-position-y: center;
+  background-position-x: 439px;
+}
+
+.select {
+  background-color: #DFF5B0;
+}
+
+.popup__animal__select:after {
+  /* content: "url(assets/arrow-select.png)"; */
+
+}
+
+.option {
+  text-align: center;
+}
+
+.popap__pay {
+  display: flex;
+}
+
+.popup__pay__sum {
+  width: 303px;
+  height: 39;
+  margin-top: 8px;
+  margin-right: 8px;
+  border: 1px solid #9CA498;
+  font-size: 16px;
+  text-align: center;
+}
+
+.popup__pay__currency {
+  width: 159px;
+  height: 39px;
+  margin-top: 8px;
+  border: 1px solid #9CA498;
+  appearance: none;
+  text-align-last: center;
+  font-size: 16px;
+}
+
+.popup__text {
+  width: 470px;
+  height: 85px;
+  margin-top: 8px;
+  border: 1px solid #9CA498;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.button__popup-next {
+  margin-top: 20px;
+  height: 40px;
+  width: 168px;
+  border-radius: 25px;
+  background-color: #70CB0E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 2;
+  font-size: 18px;
+  color: black;
+  
+}
+
+
+.popup-card {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-card-open {
+  display: none;
+}
+
+.popup-card__block {
+  width: 630px;
+  height: 389px;
+  background: white;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup-card__container {
+  width: 530px;
+  height: 239px;
+
+  margin: 50px 50px 20px 50px;
+  position: relative;
+}
+
+.card-front{
+  background: url(../popup-donat/assets/card-front.png) no-repeat;
+  z-index: 2;
+  width: 358px;
+  height: 203px;
+  position: absolute;
+  padding: 35px 26px;
+}
+
+.card-number {
+  width: 306px;
+  height: 38px;
+  font-size: 16px;
+  text-align: center;
+}
+.mm {
+  width: 79px;
+  height: 38px;
+  margin-top: 9px;
+  font-size: 16px;
+  text-align: center;
+}
+.yy {
+  width: 79px;
+  height: 38px;
+  margin-top: 9px;
+  margin-left: 3px;
+  font-size: 16px;
+  text-align: center;
+}
+.cardholder {
+  width: 306px;
+  height: 38px;
+  margin-top: 9px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.card-back {
+  background: url(../popup-donat/assets/card-back.png) no-repeat;
+  width: 326px;
+  height: 189px;
+  /* z-index: ; */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+}
+
+.cvc {
+  width: 75px;
+  height: 35px;
+  right: 36px;
+  top: 73px;
+  position: absolute;
+  font-size: 16px;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.button__popup-card {
+  height: 40px;
+  width: 168px;
+  border-radius: 25px;
+  background-color: #70CB0E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 2;
+  font-size: 18px;
+  color: black;
+}

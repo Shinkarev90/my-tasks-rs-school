@@ -1,0 +1,267 @@
+body{
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+  margin: 0 auto;
+}
+
+.apper_block{
+  padding: 0 120px;
+  width: 1440px;
+  height: 780px;
+  background: url(../assets/Rectangle.jpg);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 99px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  padding: 0 1px;
+}
+
+.logo_text{
+  color: #fff;
+  font-size: 32px;
+  text-transform: uppercase;
+  padding: 0 15px;
+  font-family: 'Roboto', sans-serif;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+}
+
+.nav_link{
+  color: #fff;
+  padding: 0 32px;
+}
+
+.search{
+  padding: 0px 65px 0px 35px;
+}
+
+.nav_button{
+  display: flex;
+  color: #fff;
+  border: 2px solid #CD6326;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 120px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+.nav_button:hover{
+  background: #E39128;
+  border: none;
+}
+.nav_button:active{
+  background: #8F5613;
+  border: none;
+}
+
+.survival{
+  color: #fff;
+  margin: 112px 0;
+}
+
+h1{
+  color: #CD6326;
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+.survival_text{
+  margin: 63px 0 49px 0;
+  font-size: 18px;
+  line-height: 27.5px;
+  Width: 274px;
+}
+.survival_button{
+  color: #fff;
+  font-size: 23px;
+  font-family: 'Roboto', sans-serif;
+  width: 160px;
+  height: 60px;
+  background: #CD6326;
+  border-radius: 5px;
+}
+.survival_button:hover{
+  background: #E39128;
+}
+.survival_button:active{
+  background: #8F5613;
+}
+
+.articles_block{
+  width: 1440px;
+  height: 767px;
+  padding: 0 120px;
+  background-color:#CCCCCC;
+  text-align: center;
+}
+.articles_block_header{
+  height: 367px;
+  font-size: 24px;
+}
+h2{
+  font-size: 48px;
+  padding: 131px 0 38px;
+}
+.articles_block_content{
+  height: 400px;
+  display: flex;
+}
+.articles_block_content_arrowleft{
+  width: 59px;
+  height: 365px;
+  margin-left: 1px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.articles_block_content_img{
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-around;
+}
+
+.articles_block_content_img1 {
+  background: url(../assets/img1.jpg);
+  width: 300px;
+  height: 360px;
+  padding-top: 255px;
+}
+.articles_block_content_img2 {
+  background: url(../assets/img2.jpg);
+  width: 300px;
+  height: 360px;
+  padding-top: 255px;
+}
+.articles_block_content_img3 {
+  background: url(../assets/img3.jpg);
+  width: 300px;
+  height: 360px;
+  padding-top: 255px;
+}
+.articles_block_content_arrowright {
+  width: 60px;
+  height: 363px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+h4{
+  font-size: 22px;
+  color: #fff;
+}
+.articles_block_content_img_text{
+  font-size: 17px;
+  color: #fff;
+  padding-top: 21px;
+}
+
+.notified_block {
+  width: 1440px;
+  height: 601px;
+  padding: 0 120px;
+  background-color:#CCCCCC;
+  text-align: center;
+}
+.notified_block_message {
+  height: 260px;
+  padding-top: 208px;
+  font-size: 27px;
+}
+.notified_block_form_input {
+  padding: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+.input_email{
+  border: 1px solid #666666;
+  border-radius: 2px;
+  width: 542px;
+  height: 62px;
+  font-size: 23px;
+  background-color: #CCCCCC;
+  margin-right: -2px;
+  padding-left: 16px;
+}
+
+.button_email{
+  font-size: 23px;
+  Width: 122px;
+  Height: 62px;
+  background: #CD6326;
+  border-radius: 0px 6px 6px 0px;
+  color: #fff;
+  margin-left: -4px;
+}
+.button_email:hover{
+  background: #E39128;
+}
+.button_email:active{
+  background: #8F5613;
+}
+
+.footer{
+  width: 1440px;
+  height: 360px;
+  background: url(../assets/footer.jpg);
+  display: flex;
+  padding: 0 120px;
+  justify-content: space-between;
+}
+
+.footer_menu {
+  display: flex;
+  width: 476px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -2px;
+}
+.footer_menu_item{
+  color: #fff;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  
+}
+.footer_social {
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_social_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+.fb{
+  background: url(../assets/fb.svg);
+}
+.ig{
+  background: url(../assets/ig.svg);
+}
+.p{
+  background: url(../assets/p.svg);
+}
+.tw{
+  background: url(../assets/Tw.svg);
+}
