@@ -1,0 +1,73 @@
+
+.content-score {
+  width: 1000px;
+  height: 802px;
+  background: #f2f2f2;
+  margin-top: 23px;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.content__best {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.best__player {
+  border-bottom: solid #dadada 1px;
+  height: 50px;
+  display: flex;
+  padding-bottom: 7px;
+  margin-top: 18px;
+}
+
+.best__avatar {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.ava {
+  border-radius: 50%;
+}
+
+
+.best__info {
+
+}
+
+.best__name {
+  display: flex;
+  align-items: center;
+  height: 19px;
+  font-weight: 500;
+}
+
+.best__email {
+  display: flex;
+  height: 25px;
+  align-items: center;
+  margin-bottom: 5;
+}
+
+.zero {
+  flex: 1 1 auto;
+}
+
+.best__score {
+  display: flex;
+  margin: 13px;
+}
+
+.best__score__text {
+  display: flex;
+  align-items: center;
+  margin-right: 7px;
+}
+
+.best__score__num {
+  display: flex;
+  align-items: center;
+  color: #2196F3;
+}
